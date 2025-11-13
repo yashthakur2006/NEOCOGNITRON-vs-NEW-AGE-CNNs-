@@ -7,6 +7,7 @@
 
 ## Abstract
 
+
 The Neocognitron, introduced by Fukushima in 1980, is widely regarded as a precursor to modern convolutional neural networks (CNNs). It was explicitly designed for pattern recognition “unaffected by shift in position,” achieved via a hierarchical arrangement of simple (S) and complex (C) cells that progressively build local invariances. 
 In contrast, modern CNNs such as AlexNet, VGG, and MobileNet are typically optimized for accuracy on large-scale benchmarks rather than explicitly measured invariance properties. 
 
@@ -158,6 +159,8 @@ We compute the invariance score \(I_k\) for each model and shift radius, averagi
 | Tiny CNN          | 2                  | 0.9477    |
 | Tiny CNN          | 4                  | 0.7211    |
 | Tiny CNN          | 6                  | 0.4581    |
+
+
 
 **Expected qualitative result:**  
 The Neocognitron-like network should display higher invariance scores at larger shifts, reflecting its architectural bias toward spatial pooling.
