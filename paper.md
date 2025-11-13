@@ -24,5 +24,23 @@ To explore this question, we:
 We revisit an early invariance-driven architecture under modern tools, and explicitly measure the invariance–accuracy trade-off rather than assuming robustness “comes for free.”
 
 
+## 2. Background
+
+### 2.1 The Neocognitron
+
+The Neocognitron is a hierarchical neural network proposed by Fukushima as a model of visual pattern recognition in the ventral visual stream.
+Its core principles are:
+
+- **S-cells (simple cells):** Local feature detectors that respond to specific patterns (e.g., oriented edges) at particular positions.
+- **C-cells (complex cells):** Units that pool over neighboring S-cells, building local invariance to small shifts and distortions.
+- **Layered hierarchy:** Repeated S/C modules arranged in depth, gradually increasing receptive field size and invariance extent.
+
+The Neocognitron originally employed **self-organizing, unsupervised learning** inspired by Hebbian mechanisms, without gradient-based backpropagation. Its design prioritized invariant recognition over the specific loss landscapes that modern deep learning focuses on.
+
+**Conceptual takeaway:**  
+Neocognitron embodies an explicit architectural commitment to invariance, realized through early and repeated pooling.
+
+
+
 
 
