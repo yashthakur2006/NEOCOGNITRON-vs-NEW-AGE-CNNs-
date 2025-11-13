@@ -1,7 +1,7 @@
-# Neocognitron vs Modern CNN
+
 # Neocognitron Revisited: Shift Invariance of Early CNN Architectures Under Modern Training
 
-*Author: YASH THAKUR  
+*Author: YASH THAKUR * 
 
 ---
 
